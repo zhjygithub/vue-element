@@ -31,6 +31,7 @@
         :selectType="selectType"
         :onlyContent="onlyContent"
         :ratings="ratings"
+        v-if="ratings.length"
       >
       </rating-select>
       <div class="rating-wrapper">
