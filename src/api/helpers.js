@@ -1,7 +1,7 @@
 import axios from 'axios';
 const urlMap ={
   development:'/',
-  production:'./vue-element/'
+  production:'http://www.jiguangcloud.com:8900/'
 }
 const baseUrl = urlMap[process.env.NODE_ENV]
 console.log(baseUrl);
