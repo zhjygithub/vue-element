@@ -59,5 +59,5 @@ module.exports = {
         [/moment[/\\]locale$/, /zh-cn/])
   },
   lintOnSave:false, 
-  baseUrl: ''
+  publicPath: ''
 }
