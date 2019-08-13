@@ -1,7 +1,7 @@
 import axios from 'axios';
 const urlMap ={
   development:'/',
-  production:'/'
+  production:'./vue-element/'
 }
 const baseUrl = urlMap[process.env.NODE_ENV]
 console.log(baseUrl);
