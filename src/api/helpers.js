@@ -4,6 +4,7 @@ const urlMap ={
   production:'http://www.jiguangcloud.com/vue-element/dist/'
 }
 const baseUrl = urlMap[process.env.NODE_ENV]
+console.log(baseUrl);
 const ERR_OK = 0
 
 export function get(url){
