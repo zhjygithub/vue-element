@@ -154,7 +154,6 @@
         }
       },
       beforeDrop(el) {
-        console.log(el);
         const ball = this.dropBalls[this.dropBalls.length - 1]
         const rect = ball.el.getBoundingClientRect()
         const x = rect.left - 32

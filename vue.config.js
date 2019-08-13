@@ -9,6 +9,7 @@ function resolve(dir){
   return path.join(__dirname,dir);
 }
 module.exports = {
+
   css: {
     loaderOptions: {
       stylus: {
@@ -58,5 +59,5 @@ module.exports = {
         [/moment[/\\]locale$/, /zh-cn/])
   },
   lintOnSave:false, 
-  baseUrl: ''
+  baseUrl:process.env.NODE_ENV === 'production' ? 'www.jiguangcloud.com' : '/'
 }
